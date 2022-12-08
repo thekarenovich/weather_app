@@ -1,0 +1,15 @@
+pip3 install django
+pip3 install psycopg2-binary
+pip3 install requests
+
+
+django-admin startproject
+python3 manage.py runserver
+python3 manage.py startapp
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
+python manage.py collectstatic
+pip install django-ckeditor
+pip install django-debug-toolbar
+python3 manage.py shell
